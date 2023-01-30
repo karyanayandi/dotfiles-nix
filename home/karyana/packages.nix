@@ -39,7 +39,7 @@ in {
     hyperfine
     imagemagick
     inotify-tools
-    keepassxc
+    kitty
     killall
     libappindicator
     libnotify
@@ -64,6 +64,5 @@ in {
     xdg-utils
     xh
     xorg.xhost
-    zoom-us
   ];
 }

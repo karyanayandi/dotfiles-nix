@@ -78,7 +78,6 @@
                 # Overlays with f2k's repo
                 awesome = awesome-git;
                 picom = picom-git;
-                wezterm = wezterm-git;
               })
               // {
                 # Non Flakes
