@@ -12,7 +12,6 @@
         noto-fonts
         noto-fonts-cjk
         noto-fonts-emoji
-        sf-mono-liga
         ;
     };
 

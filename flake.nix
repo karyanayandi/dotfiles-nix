@@ -30,11 +30,6 @@
     };
 
     # Non Flakes
-    sf-mono-liga = {
-      url = "github:shaunsingh/SFMono-Nerd-Font-Ligaturized";
-      flake = false;
-    };
-
     firefox-gnome-theme = {
       url = "github:rafaelmardojai/firefox-gnome-theme";
       flake = false;
@@ -81,7 +76,6 @@
               })
               // {
                 # Non Flakes
-                sf-mono-liga-src = sf-mono-liga;
                 firefox-gnome-theme-src = firefox-gnome-theme;
               }
           )
