@@ -47,12 +47,6 @@ in {
         enableCryptodisk = true;
         configurationLimit = 3;
         gfxmodeEfi = "1920x1080";
-        theme = pkgs.fetchzip {
-          # https://github.com/AdisonCavani/distro-grub-themes
-          url = "https://raw.githubusercontent.com/AdisonCavani/distro-grub-themes/master/themes/msi.tar";
-          hash = "sha256-6ZevSnSNJ/Q67DTNJj8k4pjOjWZFj0tG0ljG3gwbLuc=";
-          stripRoot = false;
-        };
       };
     };
   };
